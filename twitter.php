@@ -15,7 +15,7 @@ $max_id = "";
 foreach (range(1, 20) as $i) { // up to 20 result pages
 
   $query = array(
-    "q" => "#transformers4 since:2014-06-20 until:2014-07-09", // Change here
+    "q" => "#transformers4 since:2014-06-20 until:2014-07-09",
     "count" => 100,
     "result_type" => "mixed",
     "max_id" => $max_id,
