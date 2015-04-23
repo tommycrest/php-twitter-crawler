@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'parseCSV' => $vendorDir . '/parsecsv/php-parsecsv/parsecsv.lib.php',
 );
